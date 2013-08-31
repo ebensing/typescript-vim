@@ -1,8 +1,12 @@
-Typescript Syntax for Vim
+Typescript Syntax for Vim - That uses --module 'commonjs'
 =========================
 
-Syntax file and compiler settings for [TypeScript](http://typescriptlang.org). The syntax file is taken
-from this [blog post](http://blogs.msdn.com/b/interoperability/archive/2012/10/01/sublime-text-vi-emacs-typescript-enabled.aspx).
+Syntax file and compiler settings for [TypeScript](http://typescriptlang.org).
+The syntax file is taken from this [blog
+post](http://blogs.msdn.com/b/interoperability/archive/2012/10/01/sublime-text-vi-emacs-typescript-enabled.aspx).
+
+From EJ: I changed it to use `--module 'commonjs'` because that seems to be the
+better way to do things when you're writing node.js projects.
 
 Install
 -------
